@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CSS Website</title>
+    <link rel="stylesheet" href="Cart.CSS" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"><i class="fas fa-lightbulb"></i>Takatof</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-link">about us</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Products</a>
+          </li>
+          <li class="navbar__btn"><a href="/" class="button">Sign Up</a></li>
+          <li class="navbar__btn"><a href="/" class="button">Log in</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Cart items details -->
+    <div class="small-container">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                  <div class="cart-info">
+                    <img src="handcrafts-handmade-wicker-baskets.jpg" alt="images for Cart">
+                    <div>
+                      <p>handmade wicker baskets</p>
+                      <small>Price: $50.00</small><br>
+                      <a href="/">remove</a>
+                    </div>
+                  </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+                        <tr>
+                <td>
+                  <div class="cart-info">
+                    <img src="handcrafts-handmade-wicker-baskets.jpg" alt="images for Cart">
+                    <div>
+                      <p>handmade wicker baskets</p>
+                      <small>Price: $50.00</small><br>
+                      <a href="/">remove</a>
+                    </div>
+                  </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+                        <tr>
+                <td>
+                  <div class="cart-info">
+                    <img src="handcrafts-handmade-wicker-baskets.jpg" alt="images for Cart">
+                    <div>
+                      <p>handmade wicker baskets</p>
+                      <small>Price: $50.00</small><br>
+                      <a href="/">remove</a>
+                    </div>
+                  </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+        </table>
+        <div class="total-price">
+          <table>
+            <tr>
+              <td>Subtotal</td>
+              <td>$200.00</td>
+            </tr>
+            <tr>
+              <td>Tax</td>
+              <td>35.00</td>
+            </tr>
+            <tr>
+              <td>Total</td>
+              <td>$235.00</td>
+            </tr>
+          </table>
+        </div>
+    </div>
+ 
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About us</h2>
+            <a href="/sign__up">How it works</a> <a href="/">Testimonials</a>
+            <a href="/">Careers</a> <a href="/">Investments</a>
+            <a href="/">Terms of Service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Contact</a> <a href="/">Support</a>
+            <a href="/">Destinations</a> <a href="/">Sponsorships</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Videos</h2>
+            <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+            <a href="/">Agency</a> <a href="/">Influencer</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="/">Instagram</a> <a href="/">Facebook</a>
+            <a href="/">Youtube</a> <a href="/">Twitter</a>
+          </div>
+          <div class="footer" id="about"></div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo"><i class="fas fa-lightbulb"></i>Takatof</a>
+          </div>
+          <p class="website__rights">© Takatof 2025. All rights reserved</p>
+          <div class="social__icons">
+            <a
+              class="social__icon--link"
+              href="https://www.facebook.com/login/"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="https://www.instagram.com/accounts/login/?hl=en"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="https://www.youtube.com/account"
+              target="_blank"
+              aria-label="Youtube"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="https://x.com/i/flow/login"
+              target="_blank"
+              aria-label="Twitter"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="https://www.linkedin.com/feed/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
